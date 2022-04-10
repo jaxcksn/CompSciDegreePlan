@@ -302,7 +302,7 @@ function App() {
     const urlParams = new URLSearchParams(window.location.search);
 
     urlParams.set('d', crushedJSON);
-    window.history.pushState({}, document.title, '/jaccasey?' + urlParams);
+    window.history.pushState({}, document.title, '/?' + urlParams);
   };
 
   const ParseShareString = () => {
