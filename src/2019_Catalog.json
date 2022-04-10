@@ -1,0 +1,319 @@
+{
+    "catalogTitle": "2019-2020",
+    "totalHours": 126,
+    "recommendedCourses": {
+        "fallOne": [
+            {
+                "ID": "ENGR-1330",
+                "Title": "Computational Thinking With Data Science",
+                "Hours": 3,
+                "isElective": false
+            },
+            {
+                "ID": "ENGL-1301",
+                "Title": "Essentials of College Rhetoric",
+                "Hours": 3,
+                "isElective": false
+            },
+            {
+                "ID": "LAPS",
+                "Title": "Life and Physical Science",
+                "Hours": 4,
+                "isElective": true
+            },
+            {
+                "ID": "MATH-1451",
+                "Title": "Calculus I with Applications",
+                "Hours": 4,
+                "isElective": false
+            }
+        ],
+        "springOne": [
+            {
+                "ID": "ENGL-1302",
+                "Title": "Advanced College Rhetoric",
+                "Hours": 3,
+                "PreReqs": "ENGL-1301",
+                "isElective": false
+            },
+            {
+                "ID": "MATH-1452",
+                "Title": "Calculus II with Applications",
+                "Hours": 4,
+                "PreReqs": "MATH-1451",
+                "isElective": false
+            },
+            {
+                "ID": "PHYS-1408",
+                "Title": "Principles of Physics I",
+                "Hours": 4,
+                "PreReqs": "MATH-1451",
+                "isElective": false
+            },
+            {
+                "ID": "CS-1412",
+                "Title": "Programming Principles II",
+                "Hours": 4,
+                "PreReqs": "ENGR-1330",
+                "isElective": false
+            }
+        ],
+        "fallTwo": [
+            {
+                "ID": "CS-2413",
+                "Title": "Data Structures",
+                "Hours": 4,
+                "PreReqs": "CS-1412",
+                "isElective": false
+            },
+            {
+                "ID": "CS-1382",
+                "Title": "Discrete Computational Structures",
+                "Hours": 3,
+                "PreReqs": "ENGR-1330",
+                "isElective": false
+            },
+            {
+                "ID": "ECE-2372",
+                "Title": "Modern Digital System Design",
+                "Hours": 3,
+                "PreReqs": "MATH-1451",
+                "isElective": false
+            },
+            {
+                "ID": "MATH-2450",
+                "Title": "Calculus III with Applications",
+                "Hours": 4,
+                "PreReqs": "MATH-1452",
+                "isElective": false
+            },
+            {
+                "ID": "PHYS-2401",
+                "Title": "Principles of Physics II",
+                "Hours": 4,
+                "PreReqs": "MATH-1452, PHYS-1408",
+                "isElective": false
+            }
+        ],
+        "springTwo": [
+            {
+                "ID": "CS-3350",
+                "Title": "Computer Organization and Assembly Language Programming",
+                "Hours": 3,
+                "PreReqs": "CS-1412,ECE-2372",
+                "isElective": false
+            },
+            {
+                "ID": "CS-2365",
+                "Title": "Object-Oriented Programming",
+                "Hours": 3,
+                "PreReqs": "CS-2413",
+                "isElective": false
+            },
+            {
+                "ID": "ENGR-2392",
+                "Title": "Engineering Ethics and Its Impact on Society",
+                "Hours": 3,
+                "isElective": false
+            },
+            {
+                "ID": "POLS-1301",
+                "Title": "American Government",
+                "Hours": 3,
+                "isElective": false
+            },
+            {
+                "ID": "MATH-2360",
+                "Title": "Linear Algebra",
+                "Hours": 3,
+                "PreReqs": "MATH-1452",
+                "isElective": false
+            },
+            {
+                "ID": "ENGL-2311",
+                "Title": "Introduction to Technical Writing",
+                "Hours": 3,
+                "PreReqs": "ENGL-1301,ENGL-1302",
+                "isElective": false
+            }
+        ],
+        "fallThree": [
+            {
+                "ID": "CS-3361",
+                "Title": "Concepts of Programming Languages",
+                "Hours": 3,
+                "PreReqs": "CS-2413",
+                "isElective": false
+            },
+            {
+                "ID": "CS-3364",
+                "Title": "Design and Analysis of Algorithms",
+                "Hours": 3,
+                "PreReqs": "CS-2413,CS-1382,MATH-2360",
+                "isElective": false
+            },
+            {
+                "ID": "MATH-3342",
+                "Title": "Mathematical Statistics for Engineers and Scientists",
+                "Hours": 3,
+                "PreReqs": "MATH-2450",
+                "isElective": false
+            },
+            {
+                "ID": "POLS-2306",
+                "Title": "Texas Politics and Topics",
+                "Hours": 3,
+                "isElective": false
+            },
+            {
+                "ID": "OCELECT",
+                "Title": "Oral Communications Elective",
+                "Hours": 3,
+                "isElective": true
+            }
+        ],
+        "springThree": [
+            {
+                "ID": "CS-3365",
+                "Title": "Software Engineering I",
+                "Hours": 3,
+                "PreReqs": "CS-2413,CS-2365,MATH-3342",
+                "isElective": false
+            },
+            {
+                "ID": "CS-3375",
+                "Title": "Computer Architecture",
+                "Hours": 3,
+                "PreReqs": "CS-3350",
+                "isElective": false
+            },
+            {
+                "ID": "CS-3383",
+                "Title": "Theory of Automata",
+                "Hours": 3,
+                "PreReqs": "CS-1382",
+                "isElective": false
+            },
+            {
+                "ID": "CSELECT",
+                "Title": "CS Elective",
+                "Hours": 3,
+                "isElective": true
+            },
+            {
+                "ID": "HIST-2300",
+                "Title": "History of the United States to 1877",
+                "Hours": 3,
+                "isElective": false
+            }
+        ],
+        "fallFour": [
+            {
+                "ID": "CS-4365",
+                "Title": "Software Engineering II",
+                "Hours": 3,
+                "PreReqs": "CS-3365",
+                "isElective": false
+            },
+            {
+                "ID": "CS-4352",
+                "Title": "Operating Systems",
+                "Hours": 3,
+                "PreReqs": "CS-3364,CS-3375",
+                "isElective": false
+            },
+            {
+                "ID": "CS-4354",
+                "Title": "Concepts of Database Systems",
+                "Hours": 3,
+                "PreReqs": "CS-3364",
+                "isElective": false
+            },
+            {
+                "ID": "HIST-2301",
+                "Title": "History of the United States since 1877",
+                "Hours": 3,
+                "PreReqs": "HIST-2300",
+                "isElective": false
+            },
+            {
+                "ID": "CSELECT",
+                "Title": "CS Elective",
+                "Hours": 3,
+                "isElective": true
+            }
+        ],
+        "springFour": [
+            {
+                "ID": "CS-4366",
+                "Title": "Senior Capstone Project",
+                "Hours": 3,
+                "isElective": false
+            },
+            {
+                "ID": "CSELECT",
+                "Title": "CS Elective",
+                "Hours": 3,
+                "isElective": true
+            },
+            {
+                "ID": "CSELECT",
+                "Title": "CS Elective",
+                "Hours": 3,
+                "isElective": true
+            },
+            {
+                "ID": "ARTELECT",
+                "Title": "Art Elective",
+                "Hours": 3,
+                "isElective": true
+            },
+            {
+                "ID": "MCULELECT",
+                "Title": "Multicultural Requirement",
+                "Hours": 3,
+                "isElective": true
+            }
+        ]
+    },
+    "requiredCourses": [
+        "ENGR-1330|CS-1411",
+        "MATH-1451",
+        "ENGL-1301",
+        "LAPS",
+        "CS-1412",
+        "ENGL-1302",
+        "MATH-1452",
+        "PHYS-1408",
+        "CS-2413",
+        "CS-1382",
+        "ECE-2372",
+        "MATH-2450",
+        "PHYS-2401",
+        "CS-3350",
+        "CS-2365",
+        "ENGR-2392",
+        "POLS-1301",
+        "MATH-2360",
+        "ENGL-2311",
+        "CS-3361",
+        "CS-3364",
+        "MATH-3342",
+        "OCELECT",
+        "POLS-2306",
+        "CS-3365",
+        "CS-3375",
+        "CS-3383",
+        "HIST-2300",
+        "HIST-2301",
+        "CS-4365",
+        "CS-4352",
+        "CS-4354",
+        "ARTELECT",
+        "MCULELECT",
+        "FLANG1",
+        "FLANG2",
+        "CS-4366",
+        "CSELECT*4"
+    ]
+}
