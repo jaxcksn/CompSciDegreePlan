@@ -4,11 +4,11 @@
 
 ### Planned Features
 
-- [] 2018 and Earlier Catalog Data
-- [] Pre-Requirement Checking (Maybe)
-- [] Shorter Sharing Links
-- [] Enhanced PDF Export
-- [] Auto-Save Feature
+- [ ] 2018 and Earlier Catalog Data
+- [ ] Pre-Requirement Checking (Maybe)
+- [ ] Shorter Sharing Links
+- [ ] Enhanced PDF Export
+- [ ] Auto-Save Feature
 
 ### Issues?
 
