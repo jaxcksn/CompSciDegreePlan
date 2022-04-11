@@ -1,5 +1,6 @@
-# Computer Science Degree Plan Tool - Texas Tech University
 
+<img src="http://myweb.ttu.edu/jaccasey/assets/SharePreview.jpg"></img>
+# Computer Science Degree Plan Tool for TTU
 > Note: This tool is provided as is. I do not work for the Computer Science department nor am I an employee of Texas Tech University, and this tool is not meant to replace speaking with your advisor.
 
 ### Planned Features
