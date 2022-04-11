@@ -45,12 +45,13 @@ a.max {
 .option-buttons {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .f-row {
   display: flex;
   flex-grow: 1;
+  flex-shrink: 1;
   width: auto;
   justify-content: center;
   max-width: 20vw;

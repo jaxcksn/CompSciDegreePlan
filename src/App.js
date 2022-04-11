@@ -8,6 +8,7 @@ import { FilePicker } from 'react-file-picker';
 import Catalogs from './catalogs.json';
 import JSONCrush from 'jsoncrush';
 import QueryString from 'query-string';
+import JSConfetti from 'js-confetti';
 
 import { saveAs } from 'file-saver';
 
@@ -21,6 +22,8 @@ const combineCourses = (semesters) => {
 
   return courses;
 };
+
+const jsConfetti = new JSConfetti();
 
 /**
  * This is a rather long and complex function. You might wanna call it async, or show a loading screen while you run it.
@@ -583,6 +586,11 @@ function App() {
     );
     if (result[0] === 'valid') {
       setValidationResults([]);
+      jsConfetti
+        .addConfetti({ confettiColors: ['red', '#d95555', 'black', '#cd2e2e'] })
+        .then(() => {
+          console.log('Confetti Done');
+        });
       setLoadingValidation(false);
     } else {
       result.shift();
@@ -672,7 +680,12 @@ function App() {
           </div>
         );
       } else {
-        return <h5>Congrats! Your schedule is valid!</h5>;
+        return (
+          <div>
+            <h5 className="text-primary">Degree Plan Validated!</h5>
+            <div>Your degree plan is valid for the {catalogYear} catalog.</div>
+          </div>
+        );
       }
     }
   };
@@ -731,7 +744,7 @@ function App() {
             <div className="option-buttons hide-sm">
               <div className="f-row">
                 <button className="btn btn-primary btn-act" onClick={downloadPlan}>
-                  <FontAwesomeIcon className="menu-icon" icon={solid('download')} />
+                  <FontAwesomeIcon className="menu-icon hide-md" icon={solid('download')} />
                   Save Plan
                 </button>
               </div>
@@ -747,7 +760,7 @@ function App() {
                       loadPlanFromFile(file);
                     }}>
                     <button className="btn btn-primary">
-                      <FontAwesomeIcon className="menu-icon" icon={solid('file-import')} />
+                      <FontAwesomeIcon className="menu-icon hide-md" icon={solid('file-import')} />
                       Load Plan
                     </button>
                   </FilePicker>
@@ -760,8 +773,11 @@ function App() {
                     CreateShareString();
                     setShowLink(true);
                   }}>
-                  <FontAwesomeIcon className="menu-icon" icon={solid('share-from-square')} />
-                  Share Plan
+                  <FontAwesomeIcon
+                    className="menu-icon hide-md"
+                    icon={solid('share-from-square')}
+                  />
+                  Plan Link
                 </button>
               </div>
               <div className="f-row">
@@ -771,7 +787,7 @@ function App() {
                     setShowValidation(!showValidation);
                     validateResults();
                   }}>
-                  <FontAwesomeIcon className="menu-icon" icon={solid('list-check')} />
+                  <FontAwesomeIcon className="menu-icon hide-md" icon={solid('list-check')} />
                   Validate Plan
                 </button>
               </div>
