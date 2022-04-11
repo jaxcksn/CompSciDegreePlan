@@ -1,7 +1,7 @@
 
 <img src="http://myweb.ttu.edu/jaccasey/assets/SharePreview.jpg"></img>
 # Computer Science Degree Plan Tool for TTU
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![CC BY 4.0][cc-by-shield]][cc-by]
 > Note: This tool is provided as is. I do not work for the Computer Science department nor am I an employee of Texas Tech University, and this tool is not meant to replace speaking with your advisor.
 
 
@@ -22,3 +22,10 @@ Say goodbye to that excel spreadsheet you have to find every semester, and say h
 ### Issues?
 If you find any issues with the tool, or the data please feel free to open an issue on this repo and I will be sure to see what I can do.
 
+### License
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
