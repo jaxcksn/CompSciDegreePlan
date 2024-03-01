@@ -1,0 +1,23 @@
+.list {
+  width: 100%;
+  height: auto;
+  border: 1px red solid;
+}
+
+.drag-indicator {
+  height: 2ch;
+  background-color: lighten(lightgray, 10);
+  border: 2px gray dashed;
+  border-radius: 10px;
+  padding: 5px 0 5px 0;
+  visibility: hidden;
+}
+
+.drag-indicator.visable {
+  visibility: visible;
+}
+
+.empty {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

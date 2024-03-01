@@ -1,0 +1,17 @@
+<div
+  class="list"
+  [class.drag]="isDraggedOver"
+  (dragover)="onDragOver($event)"
+  (drop)="onDrop($event, title)"
+  (dragleave)="onDragLeave($event)"
+  (dragenter)="onDragEnter($event)"
+>
+  <drag-item
+    *ngFor="let req of items; let i = index"
+    [item]="req"
+    [origin]="title"
+    (dragStartEvent)="onDragStart($event)"
+  />
+  <div class="empty" *ngIf="items.length == 0">This Semester is Empty</div>
+  <div [ngClass]="['drag-indicator', isDraggedOver ? 'visable' : '']"></div>
+</div>
